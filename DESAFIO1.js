@@ -1,33 +1,33 @@
-let nomedoheroi = "Nicolly";
-let experiencia = 15000;
-let nivel;
+let NomeDoHeroi = "Nicolly";
+let Experiencia = 15000;
+let Nivel;
 
-if (experiencia <= 1000) {
-    nivel = "Ferro";
+if (Experiencia <= 1000) {
+    Nivel = "Ferro";
 }
-else if (experiencia >= 1001 && experiencia <= 2000) { 
-    nivel = "Bronze";   
+else if (Experiencia >= 1001 && Experiencia <= 2000) { 
+    Nivel = "Bronze";   
 }
-else if (experiencia >= 2001 && experiencia <= 5000) {
-    nivel = "Prata";
+else if (Experiencia >= 2001 && Experiencia <= 5000) {
+    Nivel = "Prata";
 }
-else if (experiencia >= 5001 && experiencia <= 7000) {
-    nivel = "Ouro";
+else if (Experiencia >= 5001 && Experiencia <= 7000) {
+    Nivel = "Ouro";
 }
-else if (experiencia >= 7001 && experiencia <= 8000) {
-    nivel = "Platina";
+else if (Experiencia >= 7001 && Experiencia <= 8000) {
+    Nivel = "Platina";
 }
-else if (experiencia >= 8001 && experiencia <= 9000) {
-    nivel = "Ascendente";
+else if (Experiencia >= 8001 && Experiencia <= 9000) {
+    Nivel = "Ascendente";
 }
-else if (experiencia >= 9001 && experiencia <= 10000) {
-    nivel = "Imortal";
+else if (Experiencia >= 9001 && Experiencia <= 10000) {
+    Nivel = "Imortal";
 }
-else if (experiencia >= 10001) {
-    nivel = "Radiante";
+else if (Experiencia >= 10001) {
+    Nivel = "Radiante";
 }
 else {
-    nivel = "Heroi não encontrado";
+    Nivel = "Heroi não encontrado";
 }
 
-console.log(nomedoheroi + " tem " + experiencia + " de experiência e está no nível " + nivel);
+console.log(NomeDoHeroi + " tem " + Experiencia + " de experiência e está no nível " + Nivel);
